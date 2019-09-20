@@ -6,12 +6,12 @@ React Native http cache control for both fetch/XMLHttpRequest and ImageView
 ## Installation
 
 ```sh
-$ npm install react-native-55-http-cache --save
+$ npm install react-native-mhttpcache --save
 ```
 
 ## iOS: Linking in your XCode project
 
-- Link `react-native-http-cache` library from your `node_modules/react-native-http-cache/ios` folder like its
+- Link `react-native-mhttpcache` library from your `node_modules/react-native-mhttpcache/ios` folder like its
   [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html).
   Don't forget to add it to "Build Phases" of project.
 
@@ -21,7 +21,7 @@ $ npm install react-native-55-http-cache --save
 
 ```
 include ':RCTHttpCache'
-project(':RCTHttpCache').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-55-http-cache/android')
+project(':RCTHttpCache').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mhttpcache/android')
 ```
 
 - Add following lines into your `android/app/build.gradle` in section `dependencies`
@@ -76,7 +76,7 @@ public class MainApplication extends Application implements ReactApplication {
 ## JavaScript: import all and invoke!
 
 ```js
-import * as CacheManager from 'react-native-http-cache';
+import * as CacheManager from 'react-native-mhttpcache';
 
 // invoke API directly when in need
 CacheManager.clear();

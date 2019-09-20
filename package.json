@@ -1,45 +1,15 @@
 {
-  "_from": "react-native-http-cache-55valid",
-  "_id": "react-native-http-cache-55valid@1.1.1",
-  "_inBundle": false,
-  "_integrity": "sha512-VID6W3iOTF+MREAaf/BaNJ6B+ucmwZyp28qMSEYsxdh3xS84OIfmBctL1TXxaAzHygsVMARSwfj3leKoK2bTFQ==",
-  "_location": "/react-native-http-cache-55valid",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-native-http-cache-55valid",
-    "name": "react-native-http-cache-55valid",
-    "escapedName": "react-native-http-cache-55valid",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-http-cache-55valid/-/react-native-http-cache-55valid-1.1.1.tgz",
-  "_shasum": "dc5357c7eda02ace51aefb3d259b83da77cf0317",
-  "_spec": "react-native-http-cache-55valid",
-  "_where": "/Users/iori/Documents/Git/RNMMB",
-  "author": {
-    "name": "lehug"
-  },
-  "bugs": {
-    "url": "https://github.com/lehug/react-native-http-cache/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "react-native-mhttpcache",
+  "version": "2.0.0",
   "description": "Control http cache used by fetch/XMLHttpRequest",
-  "devDependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^2.1.1",
-    "eslint-plugin-import": "^0.12.1",
-    "eslint-plugin-react": "^3.13.1"
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint ."
   },
-  "homepage": "https://github.com/lehug/react-native-http-cache#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashen1/react-native-http-cache-55valid.git"
+  },
   "keywords": [
     "react-native",
     "ios",
@@ -47,15 +17,17 @@
     "http",
     "cache"
   ],
+  "author": "lehug",
   "license": "ISC",
-  "main": "index.js",
-  "name": "react-native-http-cache-55valid",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lehug/react-native-http-cache.git"
+  "bugs": {
+    "url": "https://github.com/bashen1/react-native-http-cache-55valid/issues"
   },
-  "scripts": {
-    "test": "node node_modules/eslint/bin/eslint ."
-  },
-  "version": "1.1.1"
+  "homepage": "https://github.com/bashen1/react-native-http-cache-55valid#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-import": "^0.12.1",
+    "eslint-plugin-react": "^3.13.1"
+  }
 }
